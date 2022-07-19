@@ -1,0 +1,205 @@
+.single_product_show {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+   
+    @media only screen and (max-width: 990px)  {
+        .single_product_show {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+
+            .product_details_name {
+                position: relative;
+                top:0vh !important;
+            }
+            .background-of-details-page {
+                display: none;
+            }
+            .repeation {
+                display: none;
+            }
+            img.display.none {
+                display: block !important;
+            }
+    }
+    img.display.none {
+        display: none;
+    }
+.grid-system {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 10px;
+    }
+
+    .add_to_cart_button button {
+        padding: 17px 50px;
+        font-size: 11px;
+        border: 1px solid black;
+        background: black;
+        color: #FFF;
+        box-sizing: border-box;
+        transition: .3s ease-in-out;
+    }
+
+    .add_to_cart_button button:hover{
+        background: rgb(36, 36, 36);
+    }
+    .inStock__Status button {
+        padding: 17px 50px;
+        font-size: 11px;
+        border: 1px solid black;
+        background: black;
+        color: #FFF;
+        box-sizing: border-box;
+        transition: .3s ease-in-out;
+        text-transform: uppercase;
+        margin-top: 2vh;
+    }
+
+    .inStock__Status button:hover{
+        background: rgb(36, 36, 36);
+    }
+
+    .product-introduce h4 {
+        margin-top: 18px;
+        font-size: 17px;
+        font-weight: 400;
+        color: #767676;
+    }
+
+    .more__information__for__this__product {
+        margin-top: 3vh;
+    }
+
+   
+
+    .more__information__for__this__product {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 3vh;
+    }
+
+    .more__information__for__this__product p {
+        position: relative;
+        left: 23px;
+    }
+
+    .more__information__for__this__product p {
+        position: relative;
+        left: 23px;
+        font-size: 12px;
+        top: 10px;
+        color: #767676;
+    }
+
+    .inStock__Status {
+        margin-top: 2vh;
+    }
+
+    .inStock__Status h6 {
+        font-size: 12px;
+        font-weight: 400;
+        color: #767676;
+    }
+
+    span.color-black {
+        display: inline-block;
+        font-size: 11px;
+        color: black;
+        margin-left: 4px;
+    }
+
+    .inStock__Status p {
+        margin-top: 3vh;
+        text-transform: lowercase;
+        font-size: 13px;
+        line-height: 1.3rem;
+        color: #000000;
+        
+    }
+
+    .product_details_name {
+        position: relative;
+        top: 10vh;
+    }
+    h2.submit_review {
+        text-align: center;
+        padding: 40px 0;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: 'Montserrat';
+        padding-bottom: 10px;
+        margin-top: 60px;
+    }
+
+
+    textarea.submitDialogTextArea {
+        width: 100%;
+        display: block;
+        padding: 18px 29px;
+        outline: none;
+        border: 1px solid #DDD;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-elevation24.MuiPaper-rounded {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .rating {
+        text-align: center;
+        margin-bottom: 23px;
+    }
+
+    .MuiRating-root {
+        color: #464646 !important;
+        cursor: pointer !important;
+        display: inline-flex;
+        position: relative;
+        font-size: 1.5rem;
+        text-align: left;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .close-n-submit-btn {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+
+
+    .close-n-submit-btn button {
+        padding: 11px 36px;
+        outline: none;
+        border: 1px solid black;
+        background: black;
+        font-family: 'Montserrat';
+        color: #FFF;
+        font-size: 11px;
+        text-transform: uppercase;
+        border-radius: 34px;
+        transition: .3s ease;
+    }
+
+    
+    .close-n-submit-btn button:hover{
+        background: none;
+        color: black;
+    }
+

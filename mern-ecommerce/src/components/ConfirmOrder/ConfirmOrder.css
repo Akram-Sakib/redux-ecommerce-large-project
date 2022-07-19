@@ -1,0 +1,133 @@
+.confirm__order {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 0 30px;
+    }
+
+    .user__information h1 {
+   font-family: 'Spartan';
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 25px;
+    font-weight: 300;
+    }
+
+    .user__information {
+        font-family: 'Spartan';
+        padding-right: 40px;
+
+    }
+
+    .user__information label {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+        display: inline-block;
+        margin-bottom: 11px;
+        font-family: 'Spartan';
+        color: #4f4f4f;
+    }
+    .user__information input {
+        margin-bottom: 23px;
+        padding: 16px;
+        width: 100%;
+        text-align: center;
+        border: 1px solid #DDD;
+        color: #767676;
+        font-size: 13px;
+        outline: none;
+        text-transform: uppercase;
+    }
+
+    .user_order_proceed {
+        padding-left: 40px;
+        border-left: 1px solid #DDD;
+    }
+
+    .order-summary h5 {
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .customization {
+        height: 50vh;
+        overflow: auto;
+    }
+
+    .order-summary {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .need-border-bottom {
+        border-bottom: 1px solid #DDD;
+        padding-bottom: 15px;
+    }
+
+    .proceed-checkout {
+        position: relative;
+        top: 10px;
+    }
+
+    .proceed_order_success button {
+        margin-top: 32px;
+        width: 100%;
+        padding: 17px;
+        background: black;
+        border: 1px solid black;
+        color: #FFF;
+        font-size: 12px;
+        text-transform: uppercase;
+        transition: .3s ease-in-out;
+        font-weight: 500;
+        
+    }
+    .proceed_order_success button:hover{
+        background: none;
+        color: black;
+    }
+    
+
+    @media only screen and (max-width: 990px)  {
+        .confirm__order {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            padding: 0 30px;
+            }
+            .user__information {
+                font-family: 'Spartan';
+                padding-right: 0px;
+        
+            }
+            .user_order_proceed {
+                padding-left: 0px;
+                border-left: 1px solid rgba(221, 221, 221, 0);
+            }
+
+            .user-cart h6 {
+                font-family: 'Spartan';
+                font-size: 12px;
+                font-weight: 600;
+                color: #484848;
+                width: 190px;
+                line-height: 28px;
+                text-transform: uppercase;
+                text-align: center !important;
+            }
+            .user-cart img {
+                height: 100px;
+                width: 100px;
+                object-fit: contain;
+                margin-bottom: 20px;
+                margin-top: 5px;
+            }
+    }

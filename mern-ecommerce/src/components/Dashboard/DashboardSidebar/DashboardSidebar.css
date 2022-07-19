@@ -1,0 +1,168 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: none;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+.nav-menu {
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: .7s !important;
+  background: white;
+  border-right: 1px solid #DDD;
+  z-index: 99 !important;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: .7s  !important;
+}
+
+
+
+
+
+.nav-menu-items {
+  width: 100%;
+}
+
+
+
+/* span {
+  margin-left: 16px;
+} */
+
+a.menu-bars span {
+  border-bottom: 1px solid #DDD;
+  margin-left: 16px;
+}
+
+
+span.hambar {
+  border-bottom: 1px solid #DDD;
+  width: 43px !important;
+  display: block;
+  margin: 12px 0;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+span.hambar.hamberger {
+  border-bottom: 1px solid #0a0808;
+  width: 28px !important;
+}
+span.hambar:hover{
+  border-bottom: 1px solid rgb(0, 0, 0) !important;
+}
+
+.menu-bars-close {
+  margin-left: auto;
+  padding: 0 29px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "Spartan";
+  color: black !important;
+  font-weight: 200;
+}
+
+ul.nav-menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Spartan';
+}
+.nav-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 18px 0;
+  display: inline-block;
+}
+.nav-text a svg {
+  color: black !important;
+  font-size: 19px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.navbar-toggle {
+  background-color: #ffffff;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+a.margin-0 {
+  margin-top: 0 !important;
+}
+
+.user-little-beat-profile {
+  text-align: center;
+}
+
+.user-little-beat-profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.user-little-beat-profile h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 7px;
+  margin-bottom: 20px;
+}
+
+.user-little-beat-profile {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 17px;
+}
+
+li.nav-text.customization-for-text a {
+  font-weight: 600;
+  font-size: 13px;}
+
+  .navbar.custom-nav {
+    height: 60px;
+    background: none;
+    border-bottom: 1px solid #00000017;
+}
+
+.navbar.custom-nav {
+  height: 60px;
+  background: none;
+  border-bottom: 1px solid #00000017;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar.custom-nav h4 {
+  padding: 0 35px;
+  font-family: 'Sacramento';
+  font-size: 38px;
+}
+span.hambar.hamberger {
+  margin: 9px 0;
+  position: relative;
+  bottom: 5px;
+}

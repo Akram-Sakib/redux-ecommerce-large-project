@@ -1,0 +1,78 @@
+.title-section {
+  background: url(https://i.ibb.co/C20ZgcW/h1-slider2-background-img.jpg)fixed top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+}
+.main-title-section{
+background: #F6F6F6;
+}
+.content-of-shop {
+    position: relative;
+    bottom: 54px;
+}
+
+.content-of-shop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.title-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.img-section {
+    width: 40%;
+   
+}
+.title-content-section{
+    width: 60%;
+   
+}
+
+
+.content-of-shop {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-of-shop svg {
+  font-size: 60px;
+  font-weight: 300;
+  color: #6a6767;
+}
+
+.content-of-shop h1 {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  color: #6a6767;
+  font-family: 'Spartan';
+  text-transform: uppercase;
+  line-height: 64px;
+}
+
+
+span.border-top {
+  position: relative;
+  height: 60px;
+  margin-bottom: 10px;
+  
+}
+
+span.border-top::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: rgb(163, 163, 163);
+}

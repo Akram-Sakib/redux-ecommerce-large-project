@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.video-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 0;
+    background: black;
+    z-index: 2;
+    color: #fafafa;
+}
+
+.products__Item__text {
+    position: relative;
+    z-index: 999;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.products__Item__text h1 {
+    text-align: center;
+    font-size: 59px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+.products__Item__text p {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2rem;
+    font-family: 'Spartan';
+    margin-bottom: 38px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.products__Item__text button {
+    background: none;
+    border: 1px solid #FFF;
+    color: #FFFF;
+    padding: 18px 77px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+    box-sizing: border-box;
+    overflow: auto;
+    transition: .3s;
+}
+.products__Item__text button:hover {
+    
+    border: 1px solid #FFF;
+    color: rgb(19, 19, 19);
+    background: #FFF !important;
+   
+}
+
+/* /grid// */
+
+.parent-of-categories-product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    z-index: 1;
+}
+
+.parent-of-categories-product a{
+    text-decoration: none;
+}
+
+.PrivateValueLabel-circle-19 {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    transform: rotate(-45deg);
+    align-items: center;
+    border-radius: 50% 50% 50% 0;
+    justify-content: center;
+    background: black !important;
+    font-family: 'Spartan' !important;
+    font-size: 8px !important;
+}
+
+.categories h2 {
+    font-size: 22px;
+    padding: 9px 0;
+    font-weight: 700;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.MuiSlider-thumb {
+    width: 12px;
+    height: 12px;
+    display: flex;
+    outline: 0;
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: -5px;
+    transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    align-items: center;
+    margin-left: 5px !important;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: currentColor;
+}
+
+.slider-for-rating-pricing {
+    position: relative;
+    left: -8px;
+}

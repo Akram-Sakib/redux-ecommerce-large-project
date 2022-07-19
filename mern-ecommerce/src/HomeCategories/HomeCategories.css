@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.HomeCategories{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .bg-section {
+        background-repeat: no-repeat !important;
+        background-position: top center !important;
+        background-attachment: fixed;
+    }
+
+
+    .bg-section {
+        position: sticky;
+        top: 0;
+        transition: .3s;
+     
+    }
+
+    .transtions {
+        transition: .3s;
+        scroll-behavior: smooth !important;
+    }
+
+    .content-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        padding: 50px;
+    }
+    .content-section h1 {
+        font-family: 'Spartan';
+        font-weight: 500;
+        color: #585151d1;
+        font-size: 23px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    .content-section{
+        position: sticky;
+        top: 0;
+        background: #ffffff;
+    }
+    .content-section button {
+        background: none;
+        font-family: 'Spartan';
+        font-size: 12px;
+        padding: 16px 48px;
+        border: none;
+        border: 1px solid #585151d1;
+        position: relative;
+        z-index: 99!important;
+        transition: .3s ease-in-out;
+        margin-top: 2vh;
+    }
+    .content-section button:hover {
+        background: none;
+        font-family: 'Spartan';
+        font-size: 12px;
+        padding: 16px 48px;
+        padding-bottom: 16px !important;
+        border: none;
+        border-bottom: 1px solid #585151d1;
+        position: relative;
+        z-index: 99!important;
+        color: #FFFF;
+        background:#585151d1 ;
+    }
+    
+
+    /* font-family: 'Bangers', cursive; */
+
+
+    .content-section p {
+        font-size: 12px;
+        font-family: 'Spartan';
+        line-height: 23px;
+        text-align: center;
+        color: #464545;
+    }
+    @media only screen and (max-width: 990px)  {
+
+        .content-section h1 {
+            font-family: 'Spartan';
+            font-weight: 500;
+            color: #585151d1;
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .content-of-shop svg {
+            font-size: 50px !important;
+            font-weight: 300;
+            color: #8f8f8f8c;
+        }
+        .img-section {
+            display: none;
+        }
+        .title-content-section {
+            width: 100% !important;
+        }
+
+        .HomeCategories {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+    }

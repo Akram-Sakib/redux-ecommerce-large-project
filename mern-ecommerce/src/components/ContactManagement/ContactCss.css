@@ -1,0 +1,52 @@
+
+
+  .contact___banner {
+    background: url('../../image/categories/hero1.jpg')fixed no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top center;
+    padding: 200px 38px;
+}
+
+.contact___banner__text {
+  width: 50%;
+  font-family: 'Montserrat';
+}
+
+.contact___banner__text h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+.contact___banner__text p {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.contact___banner__text a {
+  background: black;
+  border: 1px solid black;
+  padding: 19px 50px;
+  margin-top: 38px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition:.3s ease-in-out
+}
+.contact___banner__text a:hover {
+  background: none;
+  border: 1px solid black;
+  color: black;
+}
+
+@media only screen and (max-width: 990px)  {
+  .contact___banner__text {
+    width: 100% !important;
+    font-family: 'Montserrat';
+  }
+}
+

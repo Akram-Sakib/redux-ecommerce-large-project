@@ -1,0 +1,20 @@
+.admin-make input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #DDD;
+    margin-bottom: 25px;
+    outline: none;
+    color: #767676;
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+.admin-make select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #DDD;
+    margin-bottom: 25px;
+    outline: none;
+    color: #767676;
+    font-family: 'Montserrat';
+    font-size: 13px;
+}

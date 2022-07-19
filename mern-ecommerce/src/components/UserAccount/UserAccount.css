@@ -1,0 +1,247 @@
+.User-profile {
+    position: relative;
+}
+
+.User-profile::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.598);
+}
+.user-images {
+    text-align: center;
+}
+
+.user-images {
+    text-align: center;
+}
+
+.user-images img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    z-index: 9 !important;
+    border-radius: 50%;
+    position: relative;
+    bottom: 80px;
+}
+.user-images {
+    text-align: center;
+    position: relative;
+    top: 40vh;
+}
+
+.user-images {
+    text-align: center;
+    position: relative;
+    top: 60vh;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+  .extra-customize-for-grid h3 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #767676;
+    padding: 10px 0;
+}
+
+    .extra-customize-for-grid a {
+        color: #8d8585;
+        font-family: 'Spartan';
+        font-size: 12px;
+        z-index: 9 !important;
+        position: relative;
+        text-decoration: none;
+        transition: .3s ease-out;
+    }
+
+    .extra-customize-for-grid a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+
+    .extra-customize-for-grid a svg {
+        margin-right: 3px;
+    }
+
+
+    .extra-customize-for-grid {
+        text-align: center;
+        padding: 100px 0;
+        padding-bottom: 30px;
+    }
+
+    .user-information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .user-information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #dddddd75;
+    }
+
+    .user-information h4 {
+        font-family: 'Lora';
+        text-transform: uppercase;
+        font-size: 46px;
+        font-weight: 800;
+    }
+
+    .profile-name h5 {
+        padding: 10px;
+        margin-top: 24px;
+    }
+    .profile-name h5 {
+        padding: 6px 0;
+        margin-top: 24px;
+        font-family: 'Lora';
+        font-size: 28px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .profile-name p {
+        text-transform: uppercase;
+        font-family: 'Spartan';
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .user-information span svg {
+        font-size: 32px;
+        color: #767676;
+        width: 100%;
+    }
+
+    .profile-name {
+        text-align: center;
+    }
+
+    .user-information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #dddddd75;
+        position: sticky;
+        overflow: auto;
+    }
+
+    .profile-name h2 {
+        padding: 20px 0;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-top: 0px;
+    }
+
+    .product-img img {
+        height: 750px;
+        overflow: hidden;
+        width: 750px;
+        object-fit: contain;
+    }
+
+    .profile-name button {
+        margin-bottom: auto;
+        padding: 18px 56px;
+        background: none;
+        border: 1px solid #000;
+        font-family: 'Spartan';
+        font-size: 13px;
+        text-transform: uppercase;
+        transition: .3s ease-in-out;
+    }
+
+    .profile-name button:hover{
+        background: black;
+        color: aliceblue;
+    }
+
+    .profile-name button {
+        padding: 18px 56px;
+        background: none;
+        border: 1px solid #000;
+        font-family: 'Spartan';
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 45px;
+        margin-top: 10px;
+    }
+
+    @media only screen and (max-width: 990px)  {
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+
+            .user-information h4 {
+                font-family: 'Lora';
+                text-transform: uppercase;
+                font-size: 34px;
+                font-weight: 800;
+            }
+            .profile-name h2 {
+                padding: 20px 0;
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 800;
+                margin-top: 0px;
+            }
+
+            .product-img img {
+                height: 100%;
+                overflow: hidden;
+                width: 100%;
+                object-fit: contain;
+            }
+
+            .button-customize-for-modal {
+                position: fixed;
+                top: 7px;
+                right: 6px;
+                z-index: 99;
+            }
+            .button-customize-for-modal button img {
+                width: 45px;
+                height: 45px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+
+
+        .div-setting {
+            display: inline-block;
+            z-index: 99 !important;
+            font-family: 'Poppins';
+            position: relative;
+            top: 27px;
+            left: 15px;
+        }
+
+        .div-setting a {
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            text-transform: uppercase;
+        }

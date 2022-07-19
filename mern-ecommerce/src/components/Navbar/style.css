@@ -1,0 +1,47 @@
+
+  
+
+
+ .menuBurger {
+    width: 3vmax;
+    height: 4.5vmax !important;
+    position: fixed;
+    top: 1vmax;
+    left: 92vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1vmax;
+    overflow: hidden;
+    z-index: 9999999999999999999 !important;
+}
+
+.text {
+    position: relative;
+    z-index: 11 !important;
+}
+
+.menuBurgerItem {
+    background-color: rgb(202, 202, 202) !important;
+    transition: .3s ease-in-out;
+} 
+
+.dummy-text h1 {
+    color: #d5cdcd70;
+    font-size: 85px;
+    padding-bottom: 16px;
+}
+
+.dummy-text p{
+    color: #d5cdcd70;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+.menuBurgerItem {
+    height: 1px !important;
+    width: 2.8vmax;
+    border-radius: 30px;
+    transition: all .4s;
+}

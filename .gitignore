@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+/mern-ecommerce/node_modules
+/mern-ecommerce/.pnp
+/mern-ecommerce/.pnp.js
+
+# testing
+/mern-ecommerce/coverage
+
+# production
+/mern-ecommerce/build
+
+
+# misc
+/backend/config/config.env
+/mern-ecommerce/.DS_Store
+/mern-ecommerce/.env.local
+/mern-ecommerce/.env.development.local
+/mern-ecommerce/.env.test.local
+/mern-ecommerce/.env.production.local
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

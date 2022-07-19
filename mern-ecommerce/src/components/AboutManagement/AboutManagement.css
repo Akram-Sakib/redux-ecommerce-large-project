@@ -1,0 +1,66 @@
+.AboutManagementAboutManagement {
+  background: linear-gradient(rgba(0, 0, 0, 0.135), rgba(0, 0, 0, 0.135)),
+    url("../../image/Akram Hossain1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center 10%;
+  object-fit: cover;
+  padding: 200px 38px;
+}
+
+.about-me {
+  width: 50%;
+}
+.about-me h1 {
+  font-family: "Bangers";
+  color: #fafafa;
+  font-size: 65px;
+  text-align: center;
+}
+
+.about-me h2 {
+  font-family: "montserrat";
+  font-size: 27px;
+  color: #ffff;
+  margin-top: 14px;
+  line-height: 35px;
+  text-align: center;
+}
+.about-me ul li a {
+  color: #ffff;
+}
+.about-me ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.about-me ul li a {
+  color: #ffff;
+  font-size: 26px;
+  display: inline-block;
+}
+
+.about-me ul li a svg {
+  font-size: 50px;
+}
+
+.about-me ul li {
+  display: inline-block;
+  margin: 0px 33px;
+  margin-top: 33px;
+}
+
+@media only screen and (max-width: 990px) {
+  .about-me {
+    width: 100% !important;
+  }
+  .content-section h1 {
+    font-family: "Spartan";
+    font-weight: 500;
+    color: #585151d1;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,20 @@
+.no-match{
+    background: url('https://i.ibb.co/9WLwwtz/pexels-mikhail-nilov-7534113.jpg')no-repeat fixed top center;
+    background: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.no-match::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.678);
+}

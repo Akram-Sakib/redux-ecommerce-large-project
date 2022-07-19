@@ -1,0 +1,221 @@
+.review-of-for-website {
+    z-index: 9;
+    padding: 30px 0;
+    position: relative;
+    
+}
+.review-of-for-website::after{
+    content: "Review";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+
+}
+
+.user-information-for-review img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-information-for-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0 340px;
+    text-align: center;
+    font-family: 'Spartan';
+}
+
+@media only screen and (max-width: 990px)  {
+    .user-information-for-review {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        padding: 0 100px;
+        text-align: center;
+        font-family: 'Spartan';
+    }
+
+    .review-of-for-website h4 {
+        text-align: center;
+        top: 10vh !important;
+        position: relative !important;
+        font-family: 'Spartan';
+        font-size: 20px;
+        text-transform: lowercase;
+    }
+}
+
+@media only screen and (max-width: 500px)  {
+    .user-information-for-review {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        padding: 0 60px;
+        text-align: center;
+        font-family: 'Spartan';
+    }
+}
+
+.user-information-for-review p {
+    padding: 18px 0;
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #101010;
+    text-transform: lowercase;
+}
+
+.user-information-for-review h5 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.review-of-for-website h4 {
+    text-align: center;
+    top: 18vh;
+    position: relative;
+    font-family: 'Spartan';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.review-of-for-website::after {
+    content: "Review";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20rem;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: #dddddd38;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 990px)  {
+    .review-of-for-website::after {
+        content: "Review";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20rem;
+        text-transform: uppercase;
+        font-family: 'Poppins';
+        font-weight: 800;
+        color: #dddddd00;
+        z-index: -1;
+        display: none;
+    }
+}
+
+.reviews-item-container {
+    z-index: 99 !important;
+    position: relative;
+    background: white ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.user-review-btn {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+.user-review-btn button {
+    padding: 15px 36px;
+    background: none;
+    border: 1px solid black;
+    font-family: 'Spartan';
+    font-size: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 99 !important;
+    transition: .3s ease-in-out;
+}
+
+
+.user-review-btn button:hover{
+    background: black;
+    color: #FFF;
+}
+
+.review-form {
+    margin: 40px 100px;
+}
+
+.review-form input::placeholder {
+    color:black
+}
+.review-form input {
+    width: 100%;
+    margin-bottom: 28px;
+    text-align: center;
+    outline: none;
+    font-size: 11px;
+    box-shadow: none;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0) !important;
+    text-transform: uppercase;
+}
+.file-uploader input{
+    border: none;
+    padding: 0;
+    border-bottom: none !important;
+}
+    .file-uploader input::file-selector-button {
+        width: 100%;
+        padding: 16px;
+        text-transform: uppercase;
+        background: none;
+        border: 1px solid black;
+        transition: .3s ease;
+        cursor: pointer;
+    }
+
+.review-form textarea {
+    width: 100%;
+    margin-bottom: 28px;
+    text-align: center;
+    outline: none;
+    font-size: 11px;
+    box-shadow: none;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.review-form textarea::placeholder {
+    color:black
+}
+
+
+.file-uploader input::file-selector-button:hover{
+      background: black;
+      color: #FFF;
+  }

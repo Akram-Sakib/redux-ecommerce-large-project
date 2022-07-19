@@ -1,0 +1,157 @@
+.navbar {
+  background-color: #fbfbfb;
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 5px 5px 5px #80808036;
+}
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #FBFBFB;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+
+.nav-text a {
+  text-decoration: none;
+  color: #1f1f1f;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'poppins';
+  text-transform: uppercase;
+}
+
+/* .nav-text a:hover {
+  background-color: #1a83ff;
+} */
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #FBFBFB;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.nav-text a span {
+  margin-left: 16px;
+}
+
+ul.nav-menu-items {
+  padding: 0;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  margin: 21px 0;
+}
+
+.navbar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+ 
+/* /// */
+/* desktop__version__css */
+
+.mobile-responsive {
+  display: none;
+}
+
+.navbar__for__dashboard img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 25px;
+}
+.navbar__for__dashboard {
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: none;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #dddddd59;
+  background: #FFFF;
+}
+
+.navbar__for__dashboard h4 {
+  font-size: 21px;
+  padding: 0 25px;
+}
+
+.sidebar-menu {
+  background-color: white;
+  flex: 1 1;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  border-right: 1px solid #dddddd4d;
+  background: none;
+}
+.sidebar-text{
+
+  flex: 4;
+  height: 200vh;
+}
+.sidebar-and-content {
+  display: flex;
+}
+
+.sidebar-menu {
+  flex: 1 1;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.navbar__for__dashboard h4 {
+  font-family: 'Poppins';
+  font-size: 15px;
+  text-transform: uppercase;
+}

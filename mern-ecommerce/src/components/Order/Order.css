@@ -1,0 +1,109 @@
+.MuiDataGrid-columnsContainer {
+    font-family: 'Poppins';
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.Mui-even.MuiDataGrid-row {
+    font-family: 'Spartan';
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.MuiDataGrid-renderingZone {
+    font-family: 'Spartan';
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+p.MuiTypography-root.MuiTablePagination-caption.makeStyles-caption-2.MuiTypography-body2.MuiTypography-colorInherit {
+    color: black;
+    font-family: 'Poppins' !important;
+    font-weight: 500;
+}
+.order-of-user svg {
+    color: black;
+    font-size: 19px;
+}
+
+p.MuiTypography-root.MuiTablePagination-caption.makeStyles-caption-8.MuiTypography-body2.MuiTypography-colorInherit {
+    font-family: 'Poppins' !important;
+}
+
+.orders-headers {
+    text-align: center;
+    padding: 50px 0;
+    text-transform: uppercase;
+}
+
+
+
+.header{
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.79);
+    z-index: 1;
+}
+.header {
+    text-align: center;
+}
+
+.header img {
+    position: relative;
+    z-index: 9;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.header h4 {
+    font-family: 'Spartan';
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 99;
+    font-weight: 400;
+}
+
+.MuiDataGrid-root {
+    flex: 1;
+    color: rgba(0, 0, 0, 0.87);
+    border: 1px solid rgba(224, 224, 224, 1);
+    height: 100%;
+    display: flex;
+    outline: none;
+    position: relative;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    border-radius: 0px;
+    flex-direction: column;
+    letter-spacing: 0.01071em;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.orders-headers h1 {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 25px;
+}

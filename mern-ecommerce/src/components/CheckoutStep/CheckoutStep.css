@@ -1,0 +1,20 @@
+.MuiStepConnector-line {
+    display: none !important;
+  }
+  
+  .MuiStepConnector-root {
+    height: 1px;
+    background-color: #76767696;
+  }
+  
+  .MuiStepConnector-active,
+  .MuiStepConnector-completed {
+    background-color: rgb(0, 0, 0);
+  }
+
+  p.MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root {
+    font-family: 'Spartan' !important;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+}

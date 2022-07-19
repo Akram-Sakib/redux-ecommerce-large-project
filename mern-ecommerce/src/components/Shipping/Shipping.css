@@ -1,0 +1,97 @@
+.shipping-container {
+    padding: 100px 0;
+    padding-top: 0;
+}
+
+
+.shop-container-shipping-caption{
+    background: url('https://i.ibb.co/TrKCGkk/slider-01.jpg') fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0;
+    margin-bottom: 80px ;
+    font-family: 'Spartan';
+    text-align: center;
+}
+
+
+
+.shipping-container h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+.shipping-box form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shipping-box {
+    width: 45%;
+    margin: 0 auto;
+}
+.shipping-box input, .shipping-box select{
+    width: 100%;
+    background: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Spartan';
+    margin-bottom: 26px;
+    outline: none;
+    border: 1px solid #b7b7b7 !important;
+    border: none;
+    padding: 18px;
+    font-size: 10px;
+    transition: .3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 990px)  {
+    .shipping-box {
+        width: 96%;
+        margin: 0 auto;
+    }
+}
+
+
+.shop-container-shipping-caption p {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #767676;
+}
+.shop-container-shipping-caption h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 25px;
+    font-weight: 300;
+}
+
+
+.shipping-box button {
+    width: 100%;
+    padding: 19px;
+    border: 1px solid #DDD;
+    background: black;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Spartan';
+    font-size: 11px;
+    outline: none;
+    transition: .3s ease-in-out;
+} 
+.shipping-box button:hover{
+    width: 100%;
+    padding: 19px;
+    border: 1px solid rgb(0, 0, 0);
+    background: none !important;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Spartan';
+    font-size: 11px;
+    outline: none;
+} 

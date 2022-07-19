@@ -1,0 +1,15 @@
+.loader-item{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .loader-item h1 {
+    font-family: 'montserrat';
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+  

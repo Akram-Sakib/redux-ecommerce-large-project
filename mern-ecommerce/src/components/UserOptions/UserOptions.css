@@ -1,0 +1,52 @@
+.user-profile-item {
+    position: relative;
+}
+.button-customize-for-modal {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    z-index: 99;
+}
+.button-customize-for-modal button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button-customize-for-modal button img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-profile-setup {
+    text-align: center;
+    
+}
+
+.user-profile-setup {
+    text-align: center;
+}
+.user-profile-setup h5 {
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+.user-profile-setup img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 14px;
+}
+
+.user-activities {
+    display: flex;
+    justify-content: space-between;
+    margin: 33px 5px;
+}
+
+.user-activities svg {
+    cursor: pointer;
+}

@@ -1,0 +1,148 @@
+
+  .white-overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.713);
+    z-index: 888;
+    -webkit-clip-path: polygon(0 0, 64% 0, 42% 100%, 0% 100%);
+    clip-path: polygon(0 0, 64% 0, 42% 100%, 0% 100%);
+    padding: 200px 0;
+    
+}
+
+
+.subscribe__content {
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    background: none;
+}
+
+.subscribe__content input::placeholder{
+    color: aliceblue;
+    font-size: 12px;
+}
+.subscribe__content input {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #FFFF;
+    font-size: 13px;
+    font-family: 'Spartan';
+}
+
+.subscribe__content button {
+    background: none;
+    border: none;
+    color: #fffd;
+}
+
+.subscribe__content {
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    background: none;
+    border: 1px solid #DDD;
+    padding: 12px;
+    border-radius: 62px;
+}
+
+.video-of-overly h1 {
+    font-family: 'Spartan';
+    text-transform: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(240 248 255);
+    line-height: 3rem;
+}
+
+
+@media only screen and (max-width: 990px)  {
+    .video-of-overly h1 {
+      font-family: 'Spartan';
+      text-transform: inherit;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+      color: rgb(240 248 255);
+      line-height: 3rem;
+  }
+  .subscribe__content {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    background: none;
+    border: 1px solid #DDD;
+    padding: 12px;
+    border-radius: 62px;
+}
+}
+.form-section {
+    text-align: center;
+    width: 47%;
+    padding: 0 80px;
+}
+.form {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0px;
+    padding: 5px;
+    padding-left: 0;
+}
+.form input {
+    width: 100%;
+    background: none;
+    padding: 13px;
+    border: none;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 12px;
+    color: black;
+    outline:none
+}
+.form input::placeholder {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: black;
+    
+}
+
+.form button {
+    border: none;
+    background: none;
+}
+.form-section h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+    padding: 0 0px;
+}
+
+@media only screen and (max-width: 990px)  {
+    .white-overly {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.713);
+        z-index: 888;
+        padding: 400px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .form-section {
+        width: 100%;
+        text-align: center;
+    }
+}
